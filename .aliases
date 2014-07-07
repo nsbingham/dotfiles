@@ -10,7 +10,7 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Sites"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -145,3 +145,7 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# My Custom
+alias aliases "mvim ~/dotfiles/.aliases"
+alias www "cd ~/Sites"
