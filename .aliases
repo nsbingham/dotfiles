@@ -147,5 +147,5 @@ alias reload="exec $SHELL -l"
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
 # My Custom
-alias aliases "mvim ~/dotfiles/.aliases"
-alias www "cd ~/Sites"
+alias aliases="mvim ~/dotfiles/.aliases"
+alias www="cd ~/Sites"
