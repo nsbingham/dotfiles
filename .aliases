@@ -151,5 +151,7 @@ alias reload="exec $SHELL -l"
 
 # My Custom
 alias makeitbetter="mvim ~/dotfiles/.aliases"
-alias www="cd ~/Sites" 
+alias www="cd ~/Sites"
 alias life="cd ~/Dropbox/notes"
+
+HISTIGNORE="jrnl *"
